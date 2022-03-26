@@ -40,7 +40,7 @@ const App = () => {
 
   return (<div className="container">
     <div className={classes.logoContainer}>
-      <img src="https://alan.app/voice/images/previews/preview.jpg" className={classes.alanLogo} alt="logo" />
+      <img src="/alanLogo.svg" className={classes.alanLogo} alt="logo" />
     </div>
     <NewsCards newsArticles={newsArticles} activeArticle={activeArticle} />
     <div className={classes.madeByBadge}>
